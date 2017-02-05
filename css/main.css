@@ -8,10 +8,12 @@ body {
 
 #wrapper {
   text-align: center;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
 }
 
 a {
-  font-family: 'Open Sans', sans-serif;
   color: #333;
   text-decoration: none;
   letter-spacing: 2px;
@@ -19,21 +21,27 @@ a {
 }
 
 p { 
-	color: #333;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 70%; 
-	-webkit-font-smoothing: antialiased; 
-	padding: 0 10% 0 10%; 
+	font-size: 80%; 
+	padding: 5% 10% 5% 10%; 
 	position: relative; 
 	text-align: left;
+  margin: auto;
 }
 
+
 h3 {
-  font-family: 'Open Sans', sans-serif;
   font-size: 150%;
   font-weight: 700;
-  padding: 0 0 5% 0;
+  padding: 5%;
 }
+
+h4 { 
+  font-weight: 300;
+  font-size: 70%; 
+  position: relative; 
+  text-align: center;
+}
+
 
 .welcome {
   display: block;
@@ -42,40 +50,39 @@ h3 {
 }
 
 .boxed {
-  border: 1px solid black ;
+  border: 2px solid #d6d6d6;
+  overflow: auto;
+  margin: auto;
   max-width: 70%;
   text-align: center;
-  color: #333;
-  font-family: 'Open Sans', sans-serif;
-  /*font-size: 14px; */
-  -webkit-font-smoothing: antialiased; 
-  padding: 0 5% 0 5%; 
+  padding: 3%;
   position: relative; 
-  width: 60%;
-  left: 15%;
-  right: 15%
   
 }
 
 .col-wrapper {
   width:100%; 
-  margin: 0% auto; 
+  margin: auto; 
   text-align:center;
-  padding: 0 5% 0 5%; 
+  /*can't put any space in the bottom :(*/
+  padding: 5% 0 0 5.5%; /*13px*/
+  overflow: auto;
+  position: relative;
+
 }
 
 .col {
-  margin:0 0; 
+  /*margin:0 0; */
   float:left; 
-  display:inline;
+  display: inline;
 }
 
 .col-L {
-  width:45%;
+  width:80%;
 }
 
 .col-R {
-  width:45%;
+  width:80%;
 }
 
 
@@ -87,7 +94,7 @@ HEADING
 header {
   width: 100%;
   text-align: center;
-  margin: 0;
+  margin: auto;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -110,7 +117,7 @@ NAVIGATION
 #nav {
   text-align: center;
   font-size: 80%;
-  padding: 5%;
+  padding: 2%;
 }
 
   #nav > a {
@@ -181,10 +188,7 @@ NAVIGATION
         height: auto;
         display: none;
         position: relative;
-        /*position: absolute;*/
         padding: 0;
-        /*left: 0;
-        right: 0;*/
     }
         #nav:target > ul
         {
@@ -204,9 +208,10 @@ NAVIGATION
 
     #nav li:hover ul {
         text-align: center;
+        margin: auto;
         padding: 0;
         position: relative;
-        background-color: #fff0ff;
+        background-color: #ffffff;
     }
 }
 
@@ -219,12 +224,12 @@ FOOTER
 footer {
   text-align: center;
   clear: both;
-  padding: 5%;
-  color: #ccc;
+  margin: auto;
 }
 
 .social-icon {
-  width: 5%;
+  width: 3%;
   height: auto;
+  padding: 5% 1% 5% 1%;
 
 }
