@@ -23,9 +23,10 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	/*font-size: 14px; */
 	-webkit-font-smoothing: antialiased; 
-	padding: 0 0 0 15%; 
+	padding: 0 15% 0 15%; 
 	position: relative; 
 	text-align: left;
+	
 
 }
 
@@ -46,6 +47,33 @@ h3 {
 .bio{
   max-width: 400px;
 }
+
+.boxed {
+  border: 1px solid black ;
+  max-width: 70%;
+  text-align: center;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  /*font-size: 14px; */
+  -webkit-font-smoothing: antialiased; 
+  padding: 0 5% 0 5%; 
+  position: relative; 
+  width: 60%;
+  left: 15%;
+  right: 15%
+  
+}
+
+.col-wrapper{width:100%; 
+margin: 0% auto; 
+text-align:center;
+padding: 0 5% 0 5%; }
+
+.col{margin:0 0; float:left; display:inline;}
+.col-L{width:45%;}
+.col-R{width:45%;}
+
+
 
 /***************************************
 HEADING
