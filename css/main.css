@@ -227,9 +227,21 @@ footer {
   margin: auto;
 }
 
+#footer {
+ all:revert	
+ clear: both;
+ background: transparent;
+ padding: 10px;
+ text-align: center;
+ margin: auto;
+ 
+}
+
 .social-icon {
   width: 3%;
   height: auto;
   padding: 5% 1% 5% 1%;
-
+   margin: 0;
+    
 }
+
