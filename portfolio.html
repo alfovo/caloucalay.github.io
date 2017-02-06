@@ -10,18 +10,21 @@
 	 
     
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.css">
-    <script src="script.js"></script>
+    
+    
 		
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:300,700" rel="stylesheet">
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	    
+	
+	<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.css">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="css/content-box.css">
     <link rel="stylesheet" href="css/image-box.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href='plugins/magnific-popup.css'>
+	<script src='plugins/jquery.magnific-popup.min.js'></script>
+	
     <link rel="stylesheet" href="style.css">
     
 	<link rel="stylesheet" href="css/main.css">
@@ -39,33 +42,19 @@
 		  <h1>CALOU CALAY</h1>
 		  <h2>Lisa Tantillo and Zach Callaghan's independent art venture featuring handmade ceramics, sculptures, paintings and prints</h2>
 		  <nav id="nav" role="navigation">
-		  <a href="#nav" title="Show navigation"><i class="material-icons">menu</i></a>
-		  <a href="#" title="Hide navigation"><i class="material-icons">menu</i></a>
-			<ul>
-			  <li><a href="index.html" class="selected">Home</a></li>
-			  <li><a href="/" aria-haspopup="true">Lisa Tantillo</a>
-				  <ul>
-					  <li><a href="/">Ceramic</a></li><br/>
-					  <li><a href="/">Mugs & Sets</a></li><br/>
-					  <li><a href="/">Teapots</a></li><br/>
-					  <li><a href="/">Pipes</a></li><br/>
-					  <li><a href="/">Bowls</a></li><br/>
-					  <li><a href="/">Tumblers</a></li><br/>
-					  <li><a href="/">Painting & Drawing</a></li>
-				  </ul>
-			  </li>
-			  <li><a href="/" aria-haspopup="true">Zach Callaghan</a>
-				  <ul>
-					  <li><a href="/">Ceramic</a></li><br/>
-					  <li><a href="/">Mixed Media</a></li><br/>
-					  <li><a href="/">Painting & Drawing</a></li>
-				  </ul>
-			  </li>
-			  <li><a href="about.html">About</a></li>
-			  <li><a href="registry.html">Registry</a></li>
-			</ul>
+			  <a href="#nav" title="Show navigation"><i class="material-icons">menu</i></a>
+			  <a href="#" title="Hide navigation"><i class="material-icons">menu</i></a>
+				<ul>
+				  <li><a href="index.html">Home</a></li>
+				  
+				  <li><a href="portfolio.html" class="selected">Portfolio</a></li>
+				  <li><a href="about.html">About</a></li>
+				  <li><a href="registry.html">Shop</a></li>
+				</ul>
 		  </nav>
 		</header>
+		
+		
 		
 		<div class="section-empty">
 			<div class="maso-list gallery">
@@ -73,6 +62,7 @@
 				<div class="navbar navbar-inner">
 					<div class="navbar-toggle"><i class="fa fa-bars"></i><span>MENU</span><i class="fa fa-angle-down"></i></div>
 					<div class="collapse navbar-collapse">
+					
 						<ul class="nav navbar-nav over inner maso-filters">
 							<li class="active current-active"><a data-filter="maso-item">All</a></li>
 							<li><a data-filter="Lisa"> Lisa Tantillo</a></li>
@@ -90,6 +80,7 @@
 							<li><a data-filter="cat1"> Paintings</a></li>
 							<li><a data-filter="cat2" href="#">Bowls</a></li>
 							<li><a data-filter="cat3" href="#">Mugs & Sets </a></li>
+							<li><a data-filter="cat4" href="#">Ceramics </a></li>
 							
 						</ul>
 					</div>
@@ -184,9 +175,9 @@
 						</a>
 					</div>
 					<div data-sort="15" class="maso-item col-md-4 row-15 cat1 Lisa">
-						<a class="img-box i-center" href="img/Lisa/paintings/painting15.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+						<a class="img-box i-center" href="img/Lisa/paintings/painting15.jpeg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
 							<i class=" anima"></i>
-							<img alt="" src="img/Lisa/paintings/Painting15.jpeg" />
+							<img alt="" src="img/Lisa/paintings/painting15.jpeg" />
 						</a>
 					</div>
 					
@@ -199,7 +190,7 @@
 					<div data-sort="17" class="maso-item col-md-4 row-12 cat1 Lisa">
 						<a class="img-box i-center" href="img/Lisa/paintings/painting17.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
 							<i class=" anima"></i>
-							<img alt="" src="img/Lisa/paintings/painting2.jpg" />
+							<img alt="" src="img/Lisa/paintings/painting17.jpg" />
 						</a>
 					</div> 
 					<div data-sort="18" class="maso-item col-md-4 row-16 cat1 Lisa">
@@ -389,7 +380,97 @@
 						</a>
 					</div>
 					
-					<!-- Load in Zach's stuff-->
+					<!-- Ceramics photos -->
+					
+					<div data-sort="48" class="maso-item col-md-4 row-15 cat4 cat3 Lisa">
+						<a class="img-box i-center" href="Lisa/ceramics/c1.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class="anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c1.jpg" />
+						</a>
+					</div> 
+					<div data-sort="49" class="maso-item col-md-4 row-12 cat4 Lisa">
+						<a class="img-box i-center" href="img/Lisa/ceramics/c2.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class=" anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c2.jpg" />
+						</a>
+					</div> 
+					<div data-sort="50" class="maso-item col-md-4 row-16 cat4 Lisa">
+						<a class="img-box i-center" href="img/Lisa/ceramics/c3.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class=" anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c3.jpg" />
+						</a>
+					</div>
+					<div data-sort="51" class="maso-item col-md-4 row-16 cat4 cat3 Lisa">
+						<a class="img-box i-center" href="img/Lisa/ceramics/c4.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class=" anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c4.jpg" />
+						</a>
+					</div>
+					<div data-sort="52" class="maso-item col-md-4 row-13 cat4 Lisa">
+						<a class="img-box i-center" href="img/Lisa/ceramics/c5.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class=" anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c5.jpg" />
+						</a>
+					</div>
+					
+					<div data-sort="53" class="maso-item col-md-4 row-15 cat4 Lisa">
+						<a class="img-box i-center" href="Lisa/ceramics/c6.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class="anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c6.jpg" />
+						</a>
+					</div> 
+					<div data-sort="54" class="maso-item col-md-4 row-12 cat4 Lisa">
+						<a class="img-box i-center" href="img/Lisa/ceramics/c7.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class=" anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c7.jpg" />
+						</a>
+					</div> 
+					<div data-sort="55" class="maso-item col-md-4 row-16 cat4 Lisa">
+						<a class="img-box i-center" href="img/Lisa/ceramics/c8.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class=" anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c8.jpg" />
+						</a>
+					</div>
+					<div data-sort="56" class="maso-item col-md-4 row-16 cat4 Lisa">
+						<a class="img-box i-center" href="img/Lisa/ceramics/c9.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class=" anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c9.jpg" />
+						</a>
+					</div>
+					<div data-sort="57" class="maso-item col-md-4 row-13 cat4 cat3 Lisa">
+						<a class="img-box i-center" href="img/Lisa/ceramics/c10.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class=" anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c10.jpg" />
+						</a>
+					</div>
+					<div data-sort="58" class="maso-item col-md-4 row-12 cat4 cat3 Lisa">
+						<a class="img-box i-center" href="img/Lisa/ceramics/c11.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class=" anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c11.jpg" />
+						</a>
+					</div> 
+					<div data-sort="59" class="maso-item col-md-4 row-16 cat4 cat3 Lisa">
+						<a class="img-box i-center" href="img/Lisa/ceramics/c12.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class=" anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c12.jpg" />
+						</a>
+					</div>
+					<div data-sort="60" class="maso-item col-md-4 row-16 cat3 cat4 Lisa">
+						<a class="img-box i-center" href="img/Lisa/ceramics/c13.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class=" anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c13.jpg" />
+						</a>
+					</div>
+					<div data-sort="61" class="maso-item col-md-4 row-13 cat3 cat4 Lisa">
+						<a class="img-box i-center" href="img/Lisa/ceramics/c14.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
+							<i class=" anima"></i>
+							<img alt="" src="img/Lisa/ceramics/c114.jpg" />
+						</a>
+					</div>
+					
+					
+					
+					<!-- Load in Zach's stuff
 					
 					<div data-sort="48" class="maso-item col-md-4 row-15 cat1 Zach">
 						<a class="img-box i-center" href="img/Zach/paintings/painting1.jpg" data-anima="show-scale" data-trigger="hover" data-anima-out="hide">
@@ -420,7 +501,7 @@
 							<i class=" anima"></i>
 							<img alt="" src="img/Zach/paintings/painting5.jpg" />
 						</a>
-					</div>
+					</div> -->
 					
 					<div class="clear"></div>
 				</div> 
@@ -431,11 +512,10 @@
 				
 			</div>
 		</div>
-		<div id="footer">
-			<style>
-			clear:both;
-			</style>
-			
+		
+	<div id="wrapper">	
+		<footer>
+						
 			<a href="https://www.instagram.com/caloucalay/"><img src="img/instagram_logo.png" alt="Instagram Logo" class="social-icon"></a>
 			<a href="https://www.facebook.com/CalouCalay/"><img src="img/facebook_logo.png" alt="Facebook Logo" class="social-icon"></a>
 			<a href="https://github.com/alfovo/caloucalay.github.io"><img src="img/github_logo.png" alt="Github Logo" class="social-icon"></a>
@@ -444,8 +524,12 @@
 			<script src="plugins/imagesloaded.min.js"></script>
 			<script src='plugins/isotope.min.js'></script>
 			<script src='plugins/jquery.magnific-popup.min.js'></script>
+			<link rel="stylesheet" href='plugins/magnific-popup.css'>
+			
+				
 			
 		   
-		</div>
+		</footer> 
+	</div>	
 </body>
 </html>
