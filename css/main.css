@@ -10,7 +10,7 @@ body {
   text-align: center;
   -webkit-font-smoothing: antialiased;
   font-family: 'Open Sans', sans-serif;
-  margin: auto;
+  padding: 0% 10% 0% 10%; 
 }
 
 a {
@@ -21,11 +21,21 @@ a {
 }
 
 p { 
-	font-size: 80%; 
-	padding: 5% 10% 5% 10%; 
+	font-size: 100%; 
+	padding: 3% 10% 5% 10%; 
 	position: relative; 
 	text-align: left;
-  margin: auto;
+    margin: auto;
+	
+}
+
+p2 { 
+	font-size: 120%; 
+	padding: 5% 10% 5% 10%; 
+	position: relative; 
+	text-align: center;
+    margin: auto;
+	
 }
 
 
@@ -37,7 +47,7 @@ h3 {
 
 h4 { 
   font-weight: 300;
-  font-size: 70%; 
+  font-size: 100%; 
   position: relative; 
   text-align: center;
 }
@@ -57,7 +67,7 @@ h4 {
   text-align: center;
   padding: 3%;
   position: relative; 
-  
+  font-size: 120%; 
 }
 
 .col-wrapper {
@@ -65,7 +75,7 @@ h4 {
   margin: auto; 
   text-align:center;
   /*can't put any space in the bottom :(*/
-  padding: 5% 0 0 5.5%; /*13px*/
+  padding: 5% 0 0 10%; /*13px*/
   overflow: auto;
   position: relative;
 
@@ -84,6 +94,7 @@ h4 {
 .col-R {
   width:80%;
 }
+
 
 
 
