@@ -10,7 +10,7 @@ body {
   text-align: center;
   -webkit-font-smoothing: antialiased;
   font-family: 'Open Sans', sans-serif;
-  margin: auto;
+  padding: 0% 10% 0% 10%; 
 }
 
 a {
@@ -21,26 +21,24 @@ a {
 }
 
 p { 
-	font-size: 80%; 
-	padding: 5% 10% 5% 10%; 
+	font-size: 100%; 
+	padding: 3% 10% 5% 10%; 
 	position: relative; 
 	text-align: left;
-  margin: auto;
+    margin: auto;
+	
+}
+
+p2 { 
+	font-size: 120%; 
+	padding: 5% 10% 5% 10%; 
+	position: relative; 
+	text-align: center;
+    margin: auto;
+	
 }
 
 
-h3 {
-  font-size: 150%;
-  font-weight: 700;
-  padding: 5%;
-}
-
-h4 { 
-  font-weight: 300;
-  font-size: 70%; 
-  position: relative; 
-  text-align: center;
-}
 
 
 .welcome {
@@ -57,7 +55,7 @@ h4 {
   text-align: center;
   padding: 3%;
   position: relative; 
-  
+  font-size: 120%; 
 }
 
 .col-wrapper {
@@ -65,7 +63,7 @@ h4 {
   margin: auto; 
   text-align:center;
   /*can't put any space in the bottom :(*/
-  padding: 5% 0 0 5.5%; /*13px*/
+  padding: 5% 0 0 10%; /*13px*/
   overflow: auto;
   position: relative;
 
@@ -87,6 +85,7 @@ h4 {
 
 
 
+
 /***************************************
 HEADING
 ****************************************/
@@ -99,15 +98,51 @@ header {
 }
 
 h1 {
-  font-size: 400%;
+  font-size: 500%;
   font-weight: 300;
-  letter-spacing: 10px;
+  letter-spacing: 12px;
+  padding: 1% 0 3.5% 0;
 }
 
-h2 {
-  font-size: 70%;
+h22 {
+  font-size: 90%;
   font-weight: 300;
+  
+  padding: 0 0 1% 0;
 }
+
+
+h2 {
+  font-size: 120%;
+  font-weight: 300;
+  letter-spacing: 5px;
+  padding: 0 0 1% 0;
+  font-family: 'Source Sans Pro', sans-serif;
+ 
+}
+
+
+h3 {
+  font-size: 150%;
+  font-weight: 700;
+  padding: 5%;
+}
+
+h4 { 
+  font-weight: 300;
+  font-size: 110%; 
+  position: relative; 
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h5 {
+  font-size: 200%;
+  font-weight: 300;
+  text-align: center;
+  padding: 3% 0 3.5% 0;
+  text-transform: none
+  }
 
 
 /***************************************
@@ -116,9 +151,10 @@ NAVIGATION
 
 #nav {
   text-align: center;
-  font-size: 80%;
+  font-size: 100%;
   padding: 2%;
-}
+  
+  }
 
   #nav > a {
     display: none;
@@ -227,9 +263,13 @@ footer {
   margin: auto;
 }
 
+
+
 .social-icon {
-  width: 3%;
+  width: 5%;
   height: auto;
   padding: 5% 1% 5% 1%;
-
+   margin: 0;
+    
 }
+
