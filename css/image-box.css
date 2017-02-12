@@ -109,7 +109,8 @@ HALF CONTENT & SIDE CONTENT & FULL CONTENT
     right: 0;
     left: 0;
     padding: 25px 15px;
-    background-color: rgba(4, 4, 4, 0.7);
+    /*background-color: rgba(4, 4, 4, 0.7); */
+	background-color: rgba(204, 177, 132, 0.5);
 }
 
 .adv-img-side-content .caption {
