@@ -3,42 +3,29 @@ GENERAL
 ****************************************/
 
 body {
-  margin: 6% 6%;
+  -webkit-font-smoothing: antialiased;
 }
 
 #wrapper {
   text-align: center;
-  -webkit-font-smoothing: antialiased;
-  font-family: 'Open Sans', sans-serif;
-  padding: 0% 10% 0% 10%; 
+  margin: auto;
+  padding: 0 15% 0 15%; 
 }
 
 a {
-  color: #333;
-  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 2px;
+  margin: auto;
   text-transform: uppercase;
 }
 
 p { 
-	font-size: 100%; 
-	padding: 3% 10% 5% 10%; 
-	position: relative; 
-	text-align: left;
-    margin: auto;
-	
-}
-
-p2 { 
 	font-size: 120%; 
-	padding: 5% 10% 5% 10%; 
-	position: relative; 
-	text-align: center;
-    margin: auto;
-	
+	padding: 5% 0 5% 0;
+	text-align: left;
+  margin: auto;
+	font-family: 'Source Sans Pro', sans-serif;
 }
-
-
 
 
 .welcome {
@@ -58,67 +45,28 @@ p2 {
   font-size: 120%; 
 }
 
-.col-wrapper {
-  width:100%; 
-  margin: auto; 
-  text-align:center;
-  /*can't put any space in the bottom :(*/
-  padding: 5% 0 0 10%; /*13px*/
-  overflow: auto;
-  position: relative;
-
-}
-
-.col {
-  /*margin:0 0; */
-  float:left; 
-  display: inline;
-}
-
-.col-L {
-  width:80%;
-}
-
-.col-R {
-  width:80%;
-}
-
-
-
-
 /***************************************
 HEADING
 ****************************************/
 
 header {
-  width: 100%;
   text-align: center;
   margin: auto;
-  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-  font-size: 500%;
+  font-size: 400%;
   font-weight: 300;
   letter-spacing: 12px;
-  padding: 1% 0 3.5% 0;
+  padding: 5% 0 4% 0;
+  font-family: 'Open Sans', sans-serif;
 }
-
-h22 {
-  font-size: 90%;
-  font-weight: 300;
-  
-  padding: 0 0 1% 0;
-}
-
 
 h2 {
-  font-size: 120%;
+  font-size: 90%;
   font-weight: 300;
-  letter-spacing: 5px;
-  padding: 0 0 1% 0;
+  letter-spacing: 2.5px;
   font-family: 'Source Sans Pro', sans-serif;
- 
 }
 
 
@@ -126,6 +74,9 @@ h3 {
   font-size: 150%;
   font-weight: 700;
   padding: 5%;
+  letter-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 h4 { 
@@ -140,118 +91,9 @@ h5 {
   font-size: 200%;
   font-weight: 300;
   text-align: center;
-  padding: 3% 0 3.5% 0;
+  padding: 3% 0 3% 0;
   text-transform: none
   }
-
-
-/***************************************
-NAVIGATION
-****************************************/
-
-#nav {
-  text-align: center;
-  font-size: 100%;
-  padding: 2%;
-  
-  }
-
-  #nav > a {
-    display: none;
-  }
-    
-    #nav a {
-      padding: 10px;
-    }
-    
-    #nav li {
-      position: relative;
-      display: inline-block;
-      padding: 5px 0 5px 0;
-    }
- 
-    /* first level */
- 
-    #nav > ul {
-    }
-
-    ul {
-      list-style: none;
-      padding: 0 40px 0 0;
-    }
-    
-    /* second level */
-
-    #nav li ul {
-      display: none;
-    }
-        #nav li:hover ul {
-          display: block;
-          position: absolute;
-          background-color: #ffffff;
-          min-width: 150%;
-          text-align: left;
-          padding: 5px 0 5px 0;
-        }
-        
-        #nav a.selected, nav a:hover {
-          color: #bfbfbf;
-        }
-
-@media only screen and ( max-width: 45em ) /* 640 480px*/
-{
-    #nav {
-        position: relative;   
-    }
-        
-        #nav > a {
-          display: none;
-        }
-        
-         #nav a {
-      padding: 10px;
-    }
-
-        #nav:not( :target ) > a:first-of-type,
-          #nav:target > a:last-of-type {
-            display: block;
-          }
- 
-    /* first level */
- 
-    #nav > ul
-    {
-        height: auto;
-        display: none;
-        position: relative;
-        padding: 0;
-    }
-        #nav:target > ul
-        {
-            display: block;
-        }
-        #nav > ul > li
-        {
-            width: 100%;
-            float: none;
-        }
- 
-    /* second level */
-    
-    #nav li ul{
-      display: none;
-    }
-
-    #nav li:hover ul {
-        text-align: center;
-        margin: auto;
-        padding: 0;
-        position: relative;
-        background-color: #ffffff;
-    }
-}
-
-$( '#nav li:has(ul)' ).doubleTapToGo();
 
 /***************************************
 FOOTER
@@ -261,15 +103,5 @@ footer {
   text-align: center;
   clear: both;
   margin: auto;
-}
-
-
-
-.social-icon {
-  width: 5%;
-  height: auto;
-  padding: 5% 1% 5% 1%;
-   margin: 0;
-    
 }
 
